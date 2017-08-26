@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>刃湮君</title>
+	<!--fonts-->
+		<link href='http://fonts.googleapis.com/css?family=Jockey+One' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+	<!--//fonts-->
+			<link href="css/bootstrap.css" rel="stylesheet">
+			<link href="css/style2.css" rel="stylesheet" type="text/css" media="all" />
+	<!-- for-mobile-apps -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="刃湮君" />
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<!-- //for-mobile-apps -->	
+	<!-- js -->
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script src="js/modernizr.custom.97074.js"></script>
+	<!-- js -->
+	<!-- start-smoth-scrolling -->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+	<!-- start-smoth-scrolling -->
+	<!-- mp3 -->
+	<link rel="stylesheet" href="css/mplayer.css">
+	<!-- mp3 -->
+</head>
+<body>
+<!-- banner -->
+<div id="home" class="banner">
+	<div class="container">
+		<div class="banner-grids">
+			<div class="col-md-4 navigation">
+				<div class="nav-left">
+					<div class="grid__item color-4">
+						<a class="link link--kumya" href="#home"><span data-letters="刃湮">刃湮</span></a>
+					</div>
+				</div>
+				<div class="nav-right">
+						<span class="menu"><img src="images/menu.png" alt="" /></span>
+							<nav class="cl-effect-1">
+								<ul class="nav1">
+									<li><a class="scroll" href="#home">Home</a></li>
+									<li><a class="scroll" href="#about">About</a></li>
+								</ul>
+							</nav>
+							<!-- script for menu -->
+							<script> 
+								$( "span.menu" ).click(function() {
+								$( "ul.nav1" ).slideToggle( 300, function() {
+								 // Animation complete.
+								});
+								});
+							</script>
+							<!-- //script for menu -->
+
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="col-md-8 text-center">
+				<img src="images/girl.jpg" width="800" height="500" alt=""/>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!-- //banner -->
+<!-- about -->
+<div id="about" class="about">
+	<div class="container">
+		<div class="about-info">
+				<h3>ABOUT ME</h3>
+				<p>纯粹只是想弄个主页</p>
+		</div>
+		<div class="about-grids">
+		   	<div class="col-md-6 about-grid">
+		   		<h4>我的经历</h4>
+		   		<p>大学生在读，长年混经验。</p>
+		   	</div>
+		   	<div class="col-md-6 about-grid">
+		   		<h4>我的目标</h4>
+		   		<p>总之先找个女朋友先</p>
+		   	</div>
+		   	<div class="clearfix"> </div>
+		</div>   
+	</div>
+</div>
+<!-- //about -->
+<!-- my skills -->
+	<div class="our-skills">
+		<div class="container">
+			<div class="skill-info">
+				<h2>技能方面</h2>
+			</div>
+			<div class="skill-grids">
+					<div class="col-md-3 skills-grid text-center">
+						<div class="circle" id="circles-1"></div>
+						<p>程序设计</p>
+					</div>
+					<div class="col-md-3 skills-grid text-center">
+						<div class="circle" id="circles-2"></div>
+						<p>脱壳破解</p>
+					</div>
+					<div class="col-md-3 skills-grid text-center">
+						<div class="circle" id="circles-3"></div>
+						<p>网站设计</p>
+					</div>
+					<div class="col-md-3 skills-grid text-center">
+						<div class="circle" id="circles-4"></div>
+						<p>玩游戏- -</p>
+					</div>
+					<div class="clearfix"> </div>
+				 <script type="text/javascript" src="js/circles.js"></script>
+					         <script>
+								var colors = [
+										['#ced7df', '#76b852'], ['#ced7df', '#76b852'], ['#ced7df', '#76b852'], ['#ced7df', '#76b852']
+									];
+								for (var i = 1; i <= 5; i++) {
+									var child = document.getElementById('circles-' + i),
+										percentage = 40 + (i * 10);
+										
+									Circles.create({
+										id:         child.id,
+										percentage: percentage,
+										radius:     80,
+										width:      10,
+										number:   	percentage / 10,
+										text:       '%',
+										colors:     colors[i - 1]
+									});
+								}
+						
+				</script>
+			</div>
+		</div>	
+	</div>
+<!-- mp3 -->
+<div class="mp">
+	<div class="mp-box">
+		<img src="img/mplayer_error.png" alt="music cover" class="mp-cover">
+		<div class="mp-info">
+			<p class="mp-name">燕归巢</p>
+			<p class="mp-singer">许嵩</p>
+			<p><span class="mp-time-current">00:00</span>/<span class="mp-time-all">00:00</span></p>
+		</div>
+		<div class="mp-btn">
+			<button class="mp-prev" title="上一首"></button>
+			<button class="mp-pause" title="播放"></button>
+			<button class="mp-next" title="下一首"></button>
+			<button class="mp-mode" title="播放模式"></button>
+			<div class="mp-vol">
+				<button class="mp-vol-img" title="静音"></button>
+				<div class="mp-vol-range" data-range_min="0" data-range_max="100" data-cur_min="80">
+					<div class="mp-vol-current"></div>
+					<div class="mp-vol-circle"></div>
+				</div>
+			</div>
+		</div>
+		<div class="mp-pro">
+			<div class="mp-pro-current"></div>
+		</div>
+		<div class="mp-menu">
+			<button class="mp-list-toggle"></button>
+			<button class="mp-lrc-toggle"></button>
+		</div>
+	</div>
+	<button class="mp-toggle">
+		<span class="mp-toggle-img"></span>
+	</button>
+	<div class="mp-lrc-box">
+		<ul class="mp-lrc"></ul>
+	</div>
+	<button class="mp-lrc-close"></button>
+	<div class="mp-list-box">
+		<ul class="mp-list-title"></ul>
+		<table class="mp-list-table">
+			<thead>
+				<tr>
+					<th>歌名</th>
+					<th>歌手</th>
+					<th>时长</th>
+				</tr>
+			</thead>
+			<tbody class="mp-list"></tbody>
+		</table>
+	</div>
+</div>
+
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/mplayer.js"></script>
+<script src="js/mplayer-list.js"></script>
+<script src="js/mplayer-functions.js"></script>
+<script src="js/jquery.nstSlider.min.js"></script>
+<script>
+var modeText = ['顺序播放','单曲循环','随机播放','列表循环'];
+var player = new MPlayer({
+	// 容器选择器名称
+	containerSelector: '.mp',
+	// 播放列表
+	songList: mplayer_song,
+	// 专辑图片错误时显示的图片
+	defaultImg: 'img/mplayer_error.png',
+	// 自动播放
+	autoPlay: true,
+	// 播放模式(0->顺序播放,1->单曲循环,2->随机播放,3->列表循环(默认))
+	playMode:0,
+	playList:0,
+	playSong:0,
+	// 当前歌词距离顶部的距离
+	lrcTopPos: 34,
+	// 列表模板，用${变量名}$插入模板变量
+	listFormat: '<tr><td>${name}$</td><td>${singer}$</td><td>${time}$</td></tr>',
+	// 音量滑块改变事件名称
+	volSlideEventName:'change',
+	// 初始音量
+	defaultVolume:80
+}, function () {
+	// 绑定事件
+	this.on('afterInit', function () {
+		console.log('播放器初始化完成，正在准备播放');
+	}).on('beforePlay', function () {
+		var $this = this;
+		var song = $this.getCurrentSong(true);
+		var songName = song.name + ' - ' + song.singer;
+		console.log('即将播放'+songName+'，return false;可以取消播放');
+	}).on('timeUpdate', function () {
+		var $this = this;
+		console.log('当前歌词：' + $this.getLrc());
+	}).on('end', function () {
+		var $this = this;
+		var song = $this.getCurrentSong(true);
+		var songName = song.name + ' - ' + song.singer;
+		console.log(songName+'播放完毕，return false;可以取消播放下一曲');
+	}).on('mute', function () {
+		var status = this.getIsMuted() ? '已静音' : '未静音';
+		console.log('当前静音状态：' + status);
+	}).on('changeMode', function () {
+		var $this = this;
+		var mode = modeText[$this.getPlayMode()];
+		$this.dom.container.find('.mp-mode').attr('title',mode);
+		console.log('播放模式已切换为：' + mode);
+	});
+});
+
+$(document.body).append(player.audio); // 测试用
+
+setEffects(player);
+
+</script>
+<!-- mp3 -->
+<!-- smooth scrolling -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+		/*
+			var defaults = {
+			containerID: 'toTop', // fading element id
+			containerHoverID: 'toTopHover', // fading element hover id
+			scrollSpeed: 1200,
+			easingType: 'linear' 
+			};
+		*/								
+		$().UItoTop({ easingType: 'easeOutQuart' });
+		});
+	</script>
+	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+<!-- //smooth scrolling -->
+</body>
+</html>
