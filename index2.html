@@ -1,278 +1,222 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>刃湮君</title>
-	<!--fonts-->
-		<link href='http://fonts.googleapis.com/css?family=Jockey+One' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-	<!--//fonts-->
-			<link href="css/bootstrap.css" rel="stylesheet">
-			<link href="css/style2.css" rel="stylesheet" type="text/css" media="all" />
-	<!-- for-mobile-apps -->
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<meta name="keywords" content="刃湮君" />
-		<link rel="stylesheet" type="text/css" href="css/mobile.css" />
-		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-	<!-- //for-mobile-apps -->	
-	<!-- js -->
-		<script type="text/javascript" src="js/jquery.min.js"></script>
-		<script src="js/modernizr.custom.97074.js"></script>
-	<!-- js -->
-	<!-- start-smoth-scrolling -->
-		<script type="text/javascript" src="js/move-top.js"></script>
-		<script type="text/javascript" src="js/easing.js"></script>
-		<script type="text/javascript">
-			jQuery(document).ready(function($) {
-				$(".scroll").click(function(event){		
-					event.preventDefault();
-					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-				});
-			});
-		</script>
-	<!-- start-smoth-scrolling -->
-	<!-- mp3 -->
-	<link rel="stylesheet" href="css/mplayer.css">
-	<!-- mp3 -->
-</head>
-<body>
-<!-- banner -->
-<div id="home" class="banner">
-	<div class="container">
-		<div class="banner-grids">
-			<div class="col-md-4 navigation">
-				<div class="nav-left">
-					<div class="grid__item color-4">
-						<a class="link link--kumya" href="#home"><span data-letters="刃湮">刃湮</span></a>
-					</div>
-				</div>
-				<div class="nav-right">
-						<span class="menu"><img src="images/menu.png" alt="" /></span>
-							<nav class="cl-effect-1">
-								<ul class="nav1">
-									<li><a class="scroll" href="#home">Home</a></li>
-									<li><a class="scroll" href="#about">About</a></li>
-								</ul>
-							</nav>
-							<!-- script for menu -->
-							<script> 
-								$( "span.menu" ).click(function() {
-								$( "ul.nav1" ).slideToggle( 300, function() {
-								 // Animation complete.
-								});
-								});
-							</script>
-							<!-- //script for menu -->
+<html lang="en">
+    <head>
+		
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <title>生日快乐</title>
+      
+        <!-- load stylesheets -->
+        <!-- Google web font "Open Sans" -->
+		
+		
+        <link rel="stylesheet" href="css/bootstrap.min.css">                                                <!-- Bootstrap style -->
+        <link rel="stylesheet" href="css/flexslider.css">                                                   <!-- Flexslider style -->       
+        <link rel="stylesheet" href="css/templatemo-style.css">                                             <!-- Templatemo style -->
+        <embed src="http://210.38.1.146:9999/dl.stream.qqmusic.qq.com/C400002sYR5U3LeodG.m4a?vkey=63EAF869AB44C29222BC3609B868094EB96CDB838A9EB3118B2E8D003CFA92986F6982C1573BE16E0EBA221B39C25011FCB72B971AB36F07&amp;guid=2340793074&amp;uin=809746696&amp;fromtag=66" hidden="true" autostart="true" loop="true"> 
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+         <![endif]-->
+		<audio id="h5audio_media" height="0" width="0" autoplay="true" loop="true"  src="http://dl.stream.qqmusic.qq.com/C400002sYR5U3LeodG.m4a?vkey=9280240837748D2E9F99C02FFA0F530FEB043BDD32F3F7B2A363CE3A1B1E65A6FC4B225433535993599A1F2F20C19334AA255B28433D5FF5&amp;guid=2340793074&amp;uin=0&amp;fromtag=66"><source src="http://dl.stream.qqmusic.qq.com/C400002sYR5U3LeodG.m4a?vkey=9280240837748D2E9F99C02FFA0F530FEB043BDD32F3F7B2A363CE3A1B1E65A6FC4B225433535993599A1F2F20C19334AA255B28433D5FF5&amp;guid=2340793074&amp;uin=0&amp;fromtag=66"></audio>
+    </head>
+    
+    <body class="page">
+        
+             
+            <!-- background images -->
+            <div class="page-bg-imgs-list">
+                <img src="img/story-bg-1.jpg" id="page-1-img" class="main-img" alt="About">
+                <img src="img/story-bg-2.jpg" id="page-2-img" alt="Gallery">
+                <img src="img/story-bg-3.jpg" id="page-3-img" alt="Services">
+                <img src="img/story-bg-4.jpg" id="page-4-img" alt="Contact">                            
+            </div>
+            
+            <div class="container-fluid">
 
-				</div>
-				<div class="clearfix"></div>
-			</div>
-			<div class="col-md-8 text-center">
-				<img src="images/girl.jpg" width=“800" height="600" alt=""/>
-			</div>
-			<div class="clearfix"></div>
-		</div>
-	</div>
-</div>
-<!-- //banner -->
-<!-- about -->
-<div id="about" class="about">
-	<div class="container">
-		<div class="about-info">
-				<h3>ABOUT ME</h3>
-				<p>纯粹只是想弄个主页</p>
-		</div>
-		<div class="about-grids">
-		   	<div class="col-md-6 about-grid">
-		   		<h4>我的经历</h4>
-		   		<p>大学生在读，长年混经验。</p>
-		   	</div>
-		   	<div class="col-md-6 about-grid">
-		   		<h4>我的目标</h4>
-		   		<p>总之先找个女朋友先</p>
-		   	</div>
-		   	<div class="clearfix"> </div>
-		</div>   
-	</div>
-</div>
-<!-- //about -->
-<!-- my skills -->
-	<div class="our-skills">
-		<div class="container">
-			<div class="skill-info">
-				<h2>技能方面</h2>
-			</div>
-			<div class="skill-grids">
-					<div class="col-md-3 skills-grid text-center">
-						<div class="circle" id="circles-1"></div>
-						<p>程序设计</p>
-					</div>
-					<div class="col-md-3 skills-grid text-center">
-						<div class="circle" id="circles-2"></div>
-						<p>脱壳破解</p>
-					</div>
-					<div class="col-md-3 skills-grid text-center">
-						<div class="circle" id="circles-3"></div>
-						<p>网站设计</p>
-					</div>
-					<div class="col-md-3 skills-grid text-center">
-						<div class="circle" id="circles-4"></div>
-						<p>玩游戏- -</p>
-					</div>
-					<div class="clearfix"> </div>
-				 <script type="text/javascript" src="js/circles.js"></script>
-					         <script>
-								var colors = [
-										['#ced7df', '#76b852'], ['#ced7df', '#76b852'], ['#ced7df', '#76b852'], ['#ced7df', '#76b852']
-									];
-								for (var i = 1; i <= 5; i++) {
-									var child = document.getElementById('circles-' + i),
-										percentage = 40 + (i * 10);
-										
-									Circles.create({
-										id:         child.id,
-										percentage: percentage,
-										radius:     80,
-										width:      10,
-										number:   	percentage / 10,
-										text:       '%',
-										colors:     colors[i - 1]
-									});
-								}
-						
-				</script>
-			</div>
-		</div>	
-	</div>
-<!-- mp3 -->
-<div class="mp">
-	<div class="mp-box">
-		<img src="img/mplayer_error.png" alt="music cover" class="mp-cover">
-		<div class="mp-info">
-			<p class="mp-name">燕归巢</p>
-			<p class="mp-singer">许嵩</p>
-			<p><span class="mp-time-current">00:00</span>/<span class="mp-time-all">00:00</span></p>
-		</div>
-		<div class="mp-btn">
-			<button class="mp-prev" title="上一首"></button>
-			<button class="mp-pause" title="播放"></button>
-			<button class="mp-next" title="下一首"></button>
-			<button class="mp-mode" title="播放模式"></button>
-			<div class="mp-vol">
-				<button class="mp-vol-img" title="静音"></button>
-				<div class="mp-vol-range" data-range_min="0" data-range_max="100" data-cur_min="80">
-					<div class="mp-vol-current"></div>
-					<div class="mp-vol-circle"></div>
-				</div>
-			</div>
-		</div>
-		<div class="mp-pro">
-			<div class="mp-pro-current"></div>
-		</div>
-		<div class="mp-menu">
-			<button class="mp-list-toggle"></button>
-			<button class="mp-lrc-toggle"></button>
-		</div>
-	</div>
-	<button class="mp-toggle">
-		<span class="mp-toggle-img"></span>
-	</button>
-	<div class="mp-lrc-box">
-		<ul class="mp-lrc"></ul>
-	</div>
-	<button class="mp-lrc-close"></button>
-	<div class="mp-list-box">
-		<ul class="mp-list-title"></ul>
-		<table class="mp-list-table">
-			<thead>
-				<tr>
-					<th>歌名</th>
-					<th>歌手</th>
-					<th>时长</th>
-				</tr>
-			</thead>
-			<tbody class="mp-list"></tbody>
-		</table>
-	</div>
-</div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-5 col-xl-5">
+                        
+                        <div class="header">
 
-<script src="js/jquery-2.1.1.js"></script>
-<script src="js/mplayer.js"></script>
-<script src="js/mplayer-list.js"></script>
-<script src="js/mplayer-functions.js"></script>
-<script src="js/jquery.nstSlider.min.js"></script>
-<script>
-var modeText = ['顺序播放','单曲循环','随机播放','列表循环'];
-var player = new MPlayer({
-	// 容器选择器名称
-	containerSelector: '.mp',
-	// 播放列表
-	songList: mplayer_song,
-	// 专辑图片错误时显示的图片
-	defaultImg: 'img/mplayer_error.png',
-	// 自动播放
-	autoPlay: true,
-	// 播放模式(0->顺序播放,1->单曲循环,2->随机播放,3->列表循环(默认))
-	playMode:0,
-	playList:0,
-	playSong:0,
-	// 当前歌词距离顶部的距离
-	lrcTopPos: 34,
-	// 列表模板，用${变量名}$插入模板变量
-	listFormat: '<tr><td>${name}$</td><td>${singer}$</td><td>${time}$</td></tr>',
-	// 音量滑块改变事件名称
-	volSlideEventName:'change',
-	// 初始音量
-	defaultVolume:80
-}, function () {
-	// 绑定事件
-	this.on('afterInit', function () {
-		console.log('播放器初始化完成，正在准备播放');
-	}).on('beforePlay', function () {
-		var $this = this;
-		var song = $this.getCurrentSong(true);
-		var songName = song.name + ' - ' + song.singer;
-		console.log('即将播放'+songName+'，return false;可以取消播放');
-	}).on('timeUpdate', function () {
-		var $this = this;
-		console.log('当前歌词：' + $this.getLrc());
-	}).on('end', function () {
-		var $this = this;
-		var song = $this.getCurrentSong(true);
-		var songName = song.name + ' - ' + song.singer;
-		console.log(songName+'播放完毕，return false;可以取消播放下一曲');
-	}).on('mute', function () {
-		var status = this.getIsMuted() ? '已静音' : '未静音';
-		console.log('当前静音状态：' + status);
-	}).on('changeMode', function () {
-		var $this = this;
-		var mode = modeText[$this.getPlayMode()];
-		$this.dom.container.find('.mp-mode').attr('title',mode);
-		console.log('播放模式已切换为：' + mode);
-	});
-});
+                            <!-- site title -->
+                            <header class="box box-white">
+                                <a href="javascript:void(0)" class="js-site-title">
+                                    <h1 class="box-text site-title-text">Happy Birthday</h1>    
+                                </a>            
+                            </header>
+                            
+                            <!-- site navigation -->
+                            <nav class="js-nav">
+                                <ul class="nav-items-container">
 
-$(document.body).append(player.audio); // 测试用
+                                    <li data-nav-item-id="page-1" class="block-keep-ratio block-keep-ratio-1-1 block-width-half box box-white box-nav-item js-nav-item pull-xs-left">
+                                        <a href="#page-1" class="block-keep-ratio-content box-nav-item-link">
+                                            <span class="box-text box-text-nav-item flexbox-center">小祝福</span>
+                                        </a>
+                                    </li>
 
-setEffects(player);
+                                    <li data-nav-item-id="page-2" class="block-keep-ratio block-keep-ratio-1-1 block-width-half box box-white box-nav-item js-nav-item pull-xs-right">
+                                        <a href="#page-2" class="block-keep-ratio-content box-nav-item-link">
+                                            <span class="box-text box-text-nav-item flexbox-center">小相册</span>
+                                        </a>
+                                    </li>
 
-</script>
-<!-- mp3 -->
-<!-- smooth scrolling -->
-	<script type="text/javascript">
-		$(document).ready(function() {
-		/*
-			var defaults = {
-			containerID: 'toTop', // fading element id
-			containerHoverID: 'toTopHover', // fading element hover id
-			scrollSpeed: 1200,
-			easingType: 'linear' 
-			};
-		*/								
-		$().UItoTop({ easingType: 'easeOutQuart' });
-		});
-	</script>
-	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
-<!-- //smooth scrolling -->
-</body>
+                                    <li data-nav-item-id="page-3" class="block-keep-ratio block-keep-ratio-1-1 block-width-half box box-white box-nav-item js-nav-item pull-xs-left">
+                                        <a href="#page-3" class="block-keep-ratio-content box-nav-item-link">
+                                            <span class="box-text box-text-nav-item flexbox-center">bilibala的小东西</span>
+                                        </a>
+                                    </li>
+
+                                    <li data-nav-item-id="page-4" class="block-keep-ratio block-keep-ratio-1-1 block-width-half box box-white box-nav-item js-nav-item pull-xs-right">
+                                        <a href="#page-4" class="block-keep-ratio-content box-nav-item-link">
+                                            <span class="box-text box-text-nav-item flexbox-center">今年标签</span>
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </nav>    
+                        </div> <!-- .header -->
+
+                    </div>
+                    
+                  
+
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-7 col-xl-7">
+                        <div class="content-wrapper js-content-wrapper">
+                            <!-- about -->
+                            <section data-page-id="page-1" class="content js-content">
+                                
+                                <header class="box box-black margin-b-20">
+                                    <h2 class="box-text page-title-text">祝罗晓婷20岁生日快乐    </h2>
+                                </header>
+                                
+                                <div class="content-text">
+									<p>  </p>
+                                    <p>  柔柔的风，把我深深的思念缠绕，化作真真的祝福，飘啊飘，轻轻飘落你身边，你要静静地倾听风的声音，用心感受那一份惬意，那是我在祝福你生日快乐。 
+                                    </p>
+									<p>  </p>
+                                    
+                                </div>            
+
+                            </section> <!-- #about -->
+
+                            <!-- gallery -->
+                            <section data-page-id="page-2" class="content content-gallery js-content">
+                                
+                                <header class="box box-black margin-b-20">
+                                    <h2 class="box-text page-title-text">你喜欢的四月</h2>
+                                </header>
+                                
+                                <div class="content-text content-text-gallery">
+                                    
+                                    <!-- <p>Credits go to <a rel="nofollow" href="http://unsplash.com">Unsplash</a> for images.</p> -->
+
+                                    <div class="flexslider-wrapper">
+
+                                        <div id="slider" class="flexslider">
+                                            <ul class="slides">
+                                                <li><img src="img/slider/slide1.jpg" alt="Slide 1" /></li>
+                                                <li><img src="img/slider/slide2.jpg" alt="Slide 2" /></li>
+                                                <li><img src="img/slider/slide3.jpg" alt="Slide 3" /></li>
+                                                <li><img src="img/slider/slide4.jpg" alt="Slide 4" /></li>
+                                                <li><img src="img/slider/slide5.jpg" alt="Slide 5" /></li>
+                                                <li><img src="img/slider/slide6.jpg" alt="Slide 6" /></li>
+                                            </ul>
+                                        </div> <!-- #slider -->
+                                      
+                                        <div id="carousel" class="flexslider">
+                                            <ul class="slides">
+                                                <li><img src="img/slider/thumb1.jpg" alt="Thumbnail 1" /></li>
+                                                <li><img src="img/slider/thumb2.jpg" alt="Thumbnail 2" /></li>
+                                                <li><img src="img/slider/thumb3.jpg" alt="Thumbnail 3" /></li>
+                                                <li><img src="img/slider/thumb4.jpg" alt="Thumbnail 4" /></li>
+                                                <li><img src="img/slider/thumb5.jpg" alt="Thumbnail 5" /></li>
+                                                <li><img src="img/slider/thumb6.jpg" alt="Thumbnail 6" /></li>
+                                            </ul>
+                                        </div>  <!-- #carousel -->
+
+                                    </div>
+                                        
+                                </div>            
+
+                            </section> <!-- #gallery -->
+                            
+                            <!-- services -->
+                            <section data-page-id="page-3" class="content js-content">
+                                
+                                <header class="box box-black margin-b-20">
+                                    <h2 class="box-text page-title-text">嘿嘿嘿</h2>
+                                </header>
+                                
+                                <div class="content-text">
+                                    <p>今天的晚安和星空都藏在这，嘿嘿嘿，自己过来看看。
+                                    </p>
+                                    
+                                    <p>bulingbuling，夜里的梦境我已经帮你开拓好了，希望你能好好享受这次梦境，晚安
+                                    </p>
+                                    <h4>好好听着歌，闭上眼睛</h4>
+                                    <p>山の向こう日が落ちて　夕闇が影を隠す
+太阳落山了 黄昏把影子藏得不见了
+街の灯が道に落ちて　影をつくる
+街灯照在马路上 影子出来了
+人気のない小さな店　片隅に腰をおろす
+坐在门可罗雀的小店角落
+グラス越にロウソクの　火が揺れている
+窗外的烛光 摇摇晃晃
+帰りたくない　今夜だけは
+不想回家 哪怕只有今夜
+何もかも忘れて　眠ってしまいたい
+好想忘掉一切的一切 沉睡下去
+今晩はお月さん　ここからじゃ见えないけれど
+月儿月儿晚上好 虽然现在我看不见你的脸
+想い出に诱われて　涙が落ちる
+想起和你的回忆 眼泪掉下来
+帰るところが　私にはない
+我无处可去
+あなたのところへは　もう帰れない
+我已经无法再回到你身边
+あなたのいるところ　私には远すぎる
+你真的离我太远太远
+                                    </p>
+                                </div>            
+
+                            </section> <!-- #services -->
+
+                            <!-- contact -->
+                            <section data-page-id="page-4" class="content js-content">
+                                
+                                <header class="box box-black margin-b-20">
+                                    <h2 class="box-text page-title-text">2018年</h2>
+                                </header>
+                                
+                                <div class="content-text">
+                                    <p>仅赠给小师妹~~~，纪念认识以来第一次的生日。
+                                    </p>
+                                                    
+                                </div>            
+
+                            </section> <!-- #contact -->
+                        </div>
+                    </div>
+
+                </div>
+                    
+               
+
+        <div id="preloader">
+            <div id="status">&nbsp;</div>
+        </div><!-- /#preloader -->      
+            
+        <!-- load JS files -->
+        <script src="js/jquery-1.11.3.min.js"></script> <!-- jQuery -->
+        <script src="js/jquery.flexslider-min.js"></script> <!-- Flex Slider -->
+        <script src="js/jquery.backstretch.min.js"></script> <!-- Backstretch http://srobbin.com/jquery-plugins/backstretch/ -->
+        <script src="js/templatemo-script.js"></script> <!-- Templatemo scripts -->
+    
+    </body>
 </html>
